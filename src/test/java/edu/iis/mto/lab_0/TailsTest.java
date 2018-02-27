@@ -34,6 +34,12 @@ public class TailsTest {
     }
 
     @Test
+    public void tailsShouldReturnStringWithoutFirstTwoLettersAsThirdElement() {
+
+        assertThat(tails.get(2), Matchers.equalTo(HELLO.substring(2)));
+    }
+    
+    @Test
     public void tailsShouldReturnEmptyStringAsLastElement() {
 
         assertThat(tails.get(tails.size() - 1), Matchers.equalTo(""));

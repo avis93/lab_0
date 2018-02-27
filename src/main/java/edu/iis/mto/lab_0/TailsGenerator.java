@@ -7,13 +7,13 @@ public class TailsGenerator {
 
     public List<String> tails(String value) {
         List list = new ArrayList<String>();
-        for (int i = 0; i <= value.length(); i++)
-        {
-            if (i == value.length())
+        for (int i = 0; i <= value.length(); i++) {
+            if (i == value.length()) {
                 list.add("");
-            else
+            }
+            else {
                 list.add(value.substring(0, value.length() - i));
-
+            }
         }
         return  list;
     }

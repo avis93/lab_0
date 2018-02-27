@@ -29,7 +29,7 @@ public class TailsTest {
 
     @Test
     public void tailsShouldReturnFullStringAsFirstElement() {
-
+    	
         assertThat(tails.get(0), Matchers.equalTo(HELLO));
     }
 

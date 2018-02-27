@@ -1,12 +1,12 @@
 package edu.iis.mto.lab_0;
 
-import static org.junit.Assert.assertThat;
-
-import java.util.List;
-
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.List;
+
+import static org.junit.Assert.assertThat;
 
 public class TailsTest {
 
@@ -31,6 +31,12 @@ public class TailsTest {
     public void tailsShouldReturnFullStringAsFirstElement() {
 
         assertThat(tails.get(0), Matchers.equalTo(HELLO));
+    }
+
+    @Test
+    public void tailsShouldReturnOneCharacterShorterStringAsSecondElement() {
+
+        assertThat(tails.get(0), Matchers.equalTo(HELLO.substring(HELLO.length()-1)));
     }
 
     @Test

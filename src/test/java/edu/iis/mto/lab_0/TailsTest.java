@@ -2,7 +2,6 @@ package edu.iis.mto.lab_0;
 
 import static org.junit.Assert.assertThat;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.hamcrest.Matchers;

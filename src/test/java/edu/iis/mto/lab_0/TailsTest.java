@@ -38,5 +38,4 @@ public class TailsTest {
 
         assertThat(tails.get(tails.size() - 1), Matchers.equalTo(""));
     }
-
 }

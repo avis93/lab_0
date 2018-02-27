@@ -38,5 +38,11 @@ public class TailsTest {
 
         assertThat(tails.get(tails.size() - 1), Matchers.equalTo(""));
     }
+    
+    @Test
+    public void tailsShouldReturnPartOfStringAsMiddleElement() {
+
+        assertThat(tails.get(3), Matchers.equalTo(HELLO.substring(3, HELLO.length())));
+    }
 
 }

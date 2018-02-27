@@ -39,4 +39,9 @@ public class TailsTest {
         assertThat(tails.get(tails.size() - 1), Matchers.equalTo(""));
     }
 
+    @Test
+    public void tailsShouldCheckSomethingInMiddle() {
+
+        assertThat(tails.get(1), Matchers.equalTo(HELLO.substring(1, HELLO.length())));
+    }
 }

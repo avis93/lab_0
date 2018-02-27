@@ -19,6 +19,7 @@ public class TailsTest {
 
         tailsGenerator = new TailsGenerator();
         tails = tailsGenerator.tails(HELLO);
+
     }
 
     @Test

@@ -36,7 +36,7 @@ public class TailsTest {
     @Test
     public void tailsShouldReturnEmptyStringAsLastElement() {
 
-        assertThat(tails.get(tails.size() - 1), Matchers.equalTo(""));
+        assertThat(tails.get(tails.size() -1), Matchers.equalTo(""));
     }
 
 }

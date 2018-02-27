@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ac8442-5437-4105-b0a9-6b7cd76dfa6c" name="Default" comment="" />
+    <list default="true" id="20ac8442-5437-4105-b0a9-6b7cd76dfa6c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/iis/mto/lab_0/TailsTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/lab_0/TailsTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/iis/mto/lab_0/TailsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/iis/mto/lab_0/TailsTest.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/lab_0/TailsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="38" column="82" lean-forward="false" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
+              <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -157,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne">
+  <component name="RunManager" selected="Android JUnit.Unnamed">
     <configuration name="Unnamed" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="lab_0" />
@@ -218,6 +222,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="TailsTest.tailsShouldReturnEmptyStringAsLastElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.iis.mto.lab_0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="lab_0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.iis.mto.lab_0" />
+      <option name="MAIN_CLASS_NAME" value="edu.iis.mto.lab_0.TailsTest" />
+      <option name="METHOD_NAME" value="tailsShouldReturnEmptyStringAsLastElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TailsTest.tailsShouldReturnFullStringAsFirstElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.iis.mto.lab_0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="lab_0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.iis.mto.lab_0" />
+      <option name="MAIN_CLASS_NAME" value="edu.iis.mto.lab_0.TailsTest" />
+      <option name="METHOD_NAME" value="tailsShouldReturnFullStringAsFirstElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -304,13 +358,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Android JUnit.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnFullStringAsFirstElement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnEmptyStringAsLastElement" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnEmptyStringAsLastElement" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnFullStringAsFirstElement" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -331,31 +389,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 16m 33s.xml">
+    <history-entry file="TailsTest_tailsShouldReturnEmptyStringAsLastElement - 2018.02.27 at 16h 48m 39s.xml">
+      <configuration name="TailsTest.tailsShouldReturnEmptyStringAsLastElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TailsTest_tailsShouldReturnFullStringAsFirstElement - 2018.02.27 at 16h 48m 36s.xml">
+      <configuration name="TailsTest.tailsShouldReturnFullStringAsFirstElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 48m 10s.xml">
       <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 17m 58s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 26m 36s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 27m 15s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 28m 11s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 28m 22s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TailsTest_tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne - 2018.02.27 at 16h 32m 38s.xml">
-      <configuration name="TailsTest.tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.02.27 at 16h 15m 30s.xml">
+    <history-entry file="Unnamed - 2018.02.27 at 16h 48m 55s.xml">
       <configuration name="Unnamed" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.02.27 at 16h 16m 24s.xml">
+    <history-entry file="Unnamed - 2018.02.27 at 16h 49m 14s.xml">
+      <configuration name="Unnamed" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.02.27 at 16h 49m 47s.xml">
+      <configuration name="Unnamed" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.02.27 at 16h 50m 35s.xml">
+      <configuration name="Unnamed" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.02.27 at 16h 50m 52s.xml">
+      <configuration name="Unnamed" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.02.27 at 16h 51m 01s.xml">
+      <configuration name="Unnamed" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.02.27 at 16h 51m 14s.xml">
       <configuration name="Unnamed" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -365,13 +426,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -396,7 +457,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -412,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/lab_0/TailsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="38" column="82" lean-forward="false" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
+          <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
           <folding />
         </state>
       </provider>

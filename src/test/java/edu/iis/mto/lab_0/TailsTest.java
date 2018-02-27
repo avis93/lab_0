@@ -36,7 +36,7 @@ public class TailsTest {
     @Test
     public void tailsShouldReturnOneCharacterShorterStringAsSecondElement() {
 
-        assertThat(tails.get(0), Matchers.equalTo(HELLO.substring(HELLO.length()-1)));
+        assertThat(tails.get(1), Matchers.equalTo(HELLO.subSequence(1,HELLO.length())));
     }
 
     @Test

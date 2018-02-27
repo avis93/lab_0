@@ -12,6 +12,7 @@ public class TailsGenerator {
             tails.add(value);
             value = value.substring(1);
         }
+        tails.add("");
 
         return tails;
     }
